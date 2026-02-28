@@ -6,3 +6,13 @@ body {
     margin: 50px auto;
     max-width: 650px;
 }
+
+@media (max-width: 480px) {
+  body {
+    margin: 28px auto;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+}
