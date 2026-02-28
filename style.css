@@ -1,22 +1,8 @@
 body {
-  font-family: Georgia, "Times New Roman", serif;
-  line-height: 1.6;
-}
-
-main {
-  max-width: 720px;
-  margin: 60px auto;
-  padding: 0 20px;
-}
-
-h1 {
-  font-size: 42px;
-}
-
-h3 {
-  margin-top: 30px;
-}
-
-ul {
-  margin-left: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.5;
+    font-size: 18px;
+    padding: 0 10px;
+    margin: 50px auto;
+    max-width: 650px;
 }
