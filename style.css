@@ -7,6 +7,14 @@ body {
     max-width: 650px;
 }
 
+.dev-banner {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
 @media (max-width: 480px) {
   body {
     margin: 28px auto;
@@ -14,5 +22,5 @@ body {
   }
   h1 {
     font-size: 28px;
-  }
+  } 
 }
