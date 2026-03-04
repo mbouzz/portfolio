@@ -24,6 +24,22 @@ a:hover {
   text-decoration: underline;
 }
 
+main {
+  opacity: 0;
+  animation: fadeIn 2.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 480px) {
   body {
     margin: 28px auto;
